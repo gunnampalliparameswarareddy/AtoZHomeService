@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">AtoZHomeService</string>
+    <!--Welcome Screen-->
+    <string name="main_screen_title">A to Z Home Services</string>
+    <string name="signup_button_text">Signup</string>
+    <string name="signup_image_description">Sign up image</string>
+    <string name="title_activity_navigation_manager">NavigationManager</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">AtoZ Home Services</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Navigation menu String-->
+    <string name="menu_home">Home</string>
+    <string name="menu_carpentering_services">Carpentering</string>
+    <string name="menu_electrical_services">Electrical</string>
+    <string name="menu_plumbing_services">Plumbing</string>
+    <string name="menu_painting_services">Painting</string>
+    <string name="menu_tile_fitting_services">Tile Fitting</string>
+    <string name="menu_welding_services">Welding</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <!--Home Page Strings-->
+    <string name="home_card_carpentering_image_desc">Carpentering</string>
+    <string name="home_card_carpentering_services">Carpentering Services</string>
+    <string name="home_card_electrical_image_desc">Electrical</string>
+    <string name="home_card_electrical_services">Electrical Services</string>
+    <string name="home_card_plumber_image_desc">Plumber</string>
+    <string name="home_card_plumber_services">Plumber Services</string>
+    <string name="home_card_welding_image_desc">Welding</string>
+    <string name="home_card_welding_services">Welding Services</string>
+    <string name="home_card_tile_fitting_image_desc">Tile</string>
+    <string name="home_card_tile_fitting_services">Tile Fitting Services</string>
+    <string name="home_card_painting_image_desc">Painting</string>
+    <string name="home_card_painting_services">Painting Services</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Carpentering Services Texts-->
+    <string name="carpentering_types_of_services">Type of Service</string>
+
+    <!--Date and Time-->
+    <string name="preferred_date_time_title">Preferred Date and Time</string>
+    <string name="pick_date_time">Pick Preferred Date and Time</string>
+
+    <string name="customer_name_hint">Enter your name</string>
+    <string name="customer_mobile_number_hint">Enter your mobile number</string>
+    <!--Address-->
+    <string name="address_street_name_hint">Enter Street Name</string>
+    <string name="address_city_name_hint">Enter City Name</string>
+    <string name="address_state_name_hint">Enter State Name</string>
+    <string name="address_country_name_hint">Enter Country Name</string>
+    <string name="address_pin_code">Enter Pin-code</string>
+
+    <!--Mobile Number-->
+    <string name="mobile_number_hint">Enter Mobile Number</string>
+
+    <!--button-->
+    <string name="submit_button">Submit</string>
+
+    <!--default-Web-Client id for google authentication-->
+    <!--<string name="default_web_client_id">AIzaSyBzeqgEe0uQ5JhVfDEzKO4iBnqOr0E14YM</string>-->
+    <string name="default_web_client_id">72205268977-2d1qs1otser3q71q10qnuqpqjt65audn.apps.googleusercontent.com</string>
+
+
+    <!--Service Request Strings-->
+    <string name="service_name">Service Request Type : </string>
+    <string name="service_address">Address : </string>
+    <string name="service_status">Status : </string>
+    <string name="title_activity_bottom_navigation_manager">BottomNavigationManager</string>
+    <string name="title_home">Home</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_orders">Orders</string>
+
+    <!--Recycler View Label-->
+    <string name="label">Label</string>
+    <string name="image_description">Image</string>
+
+    <!--Location Labels-->
+    <string name="fetching_location">Fetching your location...</string>
+    <string name="error_fetching_address">Error Fetching address</string>
+    <string name="title_search_location">Search Location</string>
+    <string name="edittext_search_address_text">Search address..</string>
+    <string name="title_view_cart">View Cart</string>
+
+    <!--Sub services-->
+    <string name="title_carpenter_sub_service">Carpenter Sub Services</string>
+    <string name="title_sub_service">Sub Services</string>
+    <string name="close_button_description">close button</string>
+
+    <!--Fragment titles-->
+    <string name="view_cart">View Cart</string>
+    <string name="place_order">Place Order</string>
+
+    <!--Number picker strings-->
+    <string name="item_text">item</string>
+    <string name="item_price_text">item price</string>
+    <string name="increment_button_text">+</string>
+    <string name="value_text">0</string>
+    <string name="decrement_button_text">-</string>
+    <string name="view_cart_button">View Cart</string>
+    <string name="item_amount">amount</string>
+
+    <!--View Cart-->
+    <string name="empty_cart_text">Empty Cart</string>
+</resources>

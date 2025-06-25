@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.service.atozhomeservice.view.ui.recyclerlayout.BackgroundFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_background" />
+    <fragment
+        android:id="@+id/navigation_orders"
+        android:name="com.service.atozhomeservice.view.ui.yourorders.OrdersDetails"
+        android:label="@string/title_orders"
+        tools:layout="@layout/fragment_orders_details" />
+    <fragment
+        android:id="@+id/navigation_search_address"
+        android:name="com.service.atozhomeservice.view.ui.searchlocation.SearchLocation"
+        android:label="@string/title_search_location"
+        tools:layout="@layout/fragment_search_location" />
+    <fragment
+        android:id="@+id/navigation_carpenter_service"
+        android:name="com.service.atozhomeservice.view.ui.carpentering.carpenter"
+        android:label="@string/title_search_location"
+        tools:layout="@layout/fragment_search_location" />
+    <fragment
+        android:id="@+id/navigation_view_cart"
+        android:name="com.service.atozhomeservice.view.ui.viewcart.ViewCart"
+        android:label="@string/view_cart"
+        tools:layout="@layout/fragment_view_cart" />
+    <fragment
+        android:id="@+id/navigation_place_order"
+        android:name="com.service.atozhomeservice.view.ui.placeorder.PlaceOrder"
+        android:label="@string/place_order"
+        tools:layout="@layout/fragment_place_order" />
+</navigation>
